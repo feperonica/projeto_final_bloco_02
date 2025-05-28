@@ -4,6 +4,12 @@
 <br />
 
 <div align="center">
+    <img src="https://i.imgur.com/w8tTOuT.png" title="source: imgur.com" /> 
+</div>
+
+<br />
+
+<div align="center">
     <img src="https://img.shields.io/github/languages/top/feperonica/projeto_final_bloco_02?style=flat-square" />
     <img src="https://img.shields.io/github/repo-size/feperonica/projeto_final_bloco_02?style=flat-square" />
     <img src="https://img.shields.io/github/languages/count/feperonica/projeto_final_bloco_02?style=flat-square" />
