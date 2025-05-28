@@ -22,9 +22,9 @@ public class Categoria {
     @Size(min = 5, max = 500, message = "A descrição deve ter entre 5 e 500 caracteres")
     private String descricao;
 
-    /* @OneToMany(fetch = FetchType.LAZY, mappedBy = "categoria", cascade = CascadeType.REMOVE)
+     @OneToMany(fetch = FetchType.LAZY, mappedBy = "categoria", cascade = CascadeType.REMOVE)
     @JsonIgnoreProperties("categoria")
-    private List<Produto> produtos; */
+    private List<Produto> produtos;
     
     // Getters e Setters
 
@@ -52,13 +52,13 @@ public class Categoria {
 		this.descricao = descricao;
 	}
 
-	/* public List<Produto> getProdutos() {
+	public List<Produto> getProdutos() {
 		return produtos;
 	}
 
 	public void setProdutos(List<Produto> produtos) {
 		this.produtos = produtos;
-	}*/
+	}
     
 	
 }
